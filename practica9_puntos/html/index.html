@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        <label for="">Ingrese punto A</label>
+                        <input type="number" id="ipPuntoA1" class="form-control" placeholder="Ingrese x1">
+                        <input type="number" id="ipPuntoA2" class="form-control" placeholder="Ingrese y1">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        <label for="">Ingrese punto B</label>
+                        <input type="number" id="ipPuntoB1" class="form-control" placeholder="Ingrese x2">
+                        <input type="number" id="ipPuntoB2" class="form-control" placeholder="Ingrese y2">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <button class="btn btn-outline-info btn-block" id="btnCalcular">
+                        Obtener Distancia
+                    </button>
+
+                    <div id="imprimirDistancia" class="alert alert-dark" role="alert">
+                        Distancia
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="./../js/app.js"></script>
+</body>
+</html>
