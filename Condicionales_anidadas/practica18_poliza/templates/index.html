@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+
+            <label for="selTipoPoliza">Seleccionar Tipo Poliza</label>
+            <select name="" id="selTipoPoliza">
+                <option value="1">A - Cobertura Amplia</option>
+                <option value="2">B - Daños a terceros</option>
+            </select>
+
+            <br>
+
+            <label for="selAlcohol">Bebe Alcohol</label>
+            <select name="" id="selAlcohol">
+                <option value="1">Si</option>
+                <option value="2">No</option>
+            </select>
+
+            <label for="selLentes">Utiliza Lentes</label>
+            <select name="" id="selLentes">
+                <option value="1">Si</option>
+                <option value="2">No</option>
+            </select>
+
+            <label for="selEnfermedad">Padece Deficiencia Cardiaca o Diabetes</label>
+            <select name="" id="selEnfermedad">
+                <option value="1">Si</option>
+                <option value="2">No</option>
+            </select>
+
+            <label for="selEdad">Es mayor de 40 años</label>
+            <select name="" id="selEdad">
+                <option value="1">Si</option>
+                <option value="2">No</option>
+            </select>
+
+            <div class="row">
+                <div class="col-12">
+                    <button class="mt-4 btn btn-outline-success btn-block" id="btnCalcular">
+                        Calcular póliza de seguro
+                    </button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="alert alert-success mt-5" id="imprimir"></div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="./../js/app.js"></script>
+</body>
+
+</html>
