@@ -1,5 +1,3 @@
-
-
 function eventListener(){
     let button = document.getElementById('btnInit');
     button.addEventListener('click', ImprimirNumeros);
@@ -21,4 +19,3 @@ function ImprimirNumeros(){
         listGroup.appendChild(li);
     }
 }
-    
