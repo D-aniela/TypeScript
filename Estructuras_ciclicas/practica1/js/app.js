@@ -55,11 +55,11 @@ function EventListener(){
     button.addEventListener('click', suma);
 }
 
-function suma(){
+function suma() {
     let acumulador = 0;
     
     for(let i=1; i<=5; i++){
-        let numero = Number(document.getElementById(`inpNumero${i}`).value);
+        let numero = Number(document.getElementById(`inpNumero${i}`).value)
         acumulador = acumulador + numero;
     }
 
