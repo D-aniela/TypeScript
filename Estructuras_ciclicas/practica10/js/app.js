@@ -17,8 +17,7 @@ eventListener();
 
 function imprimirVenta(){
     const cantidadVenta = Number(prompt('Cuántas ventas se realizaron?'));
-    
-    let venta = 0;
+
     let ventaMayor = 0;
     let ventaMedia = 0;
     let ventaMenor = 0;

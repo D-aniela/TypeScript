@@ -20,8 +20,6 @@ function calcularSalario() {
     porcentaje = salario * 0.1 + salario;
     acumulador += porcentaje;
 
-    console.log(acumulador);
-
     totalSalario = acumulador * 12;
     sumaSalario += totalSalario;
 
