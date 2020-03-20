@@ -71,7 +71,7 @@ function realizarOperaciones(event) {
         suma += arrayUno[i];
         sumaDos += arrayDos[i];
 
-        resultado = suma - sumaDos;
+        resultado = sumaDos - suma;
       }
       const opcion2 = document.getElementById("imprimir2");
       opcion2.innerText = resultado;
