@@ -23,7 +23,7 @@ function validarClick(e) {
       const output = document.getElementById("output");
       const div = document.createElement("div");
       div.setAttribute("class", "form-group");
-      div.setAttribute("class", "alert-primary");
+      div.setAttribute("alert", "success");
       div.innerText = `${valoresOrig}
     ${valores}`;
 
